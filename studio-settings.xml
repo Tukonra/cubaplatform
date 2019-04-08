@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<studio>
+    <functionalitySettings>
+        <functionality id="oneToOneIndex"
+                       state="ENABLE"/>
+    </functionalitySettings>
+    <dbScripts>
+        <excludes>
+            <hsql>
+                <item name="190406-2-updateProduct01_DropScript.sql">
+                    <![CDATA[alter table SALES_PRODUCT drop column CODE__U60069 cascade ;]]>
+                </item>
+            </hsql>
+        </excludes>
+    </dbScripts>
+</studio>
